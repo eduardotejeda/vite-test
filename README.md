@@ -1,6 +1,6 @@
 # React + Vite
 
-#Testig how **React** work with **Vite** and HMR and some ESLint rules.
+Testig how **React** work with **Vite** and HMR and some ESLint rules.
 
 ## Table of Contents
 
