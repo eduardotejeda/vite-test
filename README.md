@@ -1,8 +1,66 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#Testig how **React** work with **Vite** and HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [License](#license)
+
+## Installation
+
+Vite requiere Node.js version ^14.18+
+
+```bash
+$ Node.js hhttps://nodejs.org/en/download
+$ cd yourproject
+$ npm create vite@latest
+$ npm run dev
+```
+
+## Usage
+
+- After `npm run dev` open browser localhost. 
+- The parent file, App.jsx, is where all of the children are displayed. 
+- To close use Ctrl+C.
+
+```
+import './App.css'
+import Chicken from "./Chicken"
+import Greeter from "./Greeter"
+import Die from "./Die"
+import ListPicker from "./ListPicker"
+import DoubleDice from "./DoubleDice"
+import ShoppingList from "./ShoppingList";
+
+
+const data = [
+  {item: "egg", quantity:12, completed:false},
+  {item: "milk", quantity:1, completed:true},
+  {item: "chicken breasts", quantity:4, completed:false},
+  {item: "carrots", quantity:6, completed:true}
+];
+
+function App() {  
+   return(
+    <div> 
+      <ShoppingList items={data}/>
+      
+      
+        </div>
+   ) 
+}
+
+export default App
+```
+
+## Features
+
+Feature1: Display a simple to-do-list.
+Featur2: Using a tenary operator, change the color based on completion.
+
+## License
+
+This project is licensed under the MIT License.
