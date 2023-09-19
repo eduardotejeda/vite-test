@@ -58,8 +58,8 @@ export default App
 
 ## Features
 
-Feature1: Display a simple to-do-list.
-Featur2: Using a tenary operator, change the color based on completion.
+1. Display a simple to-do-list.
+2. Using a tenary operator, change the color based on completion.
 
 ## License
 
