@@ -5,6 +5,8 @@ import Die from "./Die"
 import ListPicker from "./ListPicker"
 import DoubleDice from "./DoubleDice"
 import ShoppingList from "./ShoppingList";
+import Clicker from "./Clicker"
+import Form from "./Form"
 
 
 const data = [
@@ -16,15 +18,18 @@ const data = [
 
 function App() {  
    return(
-    <div> 
-      <ShoppingList items={data}/>
-      
-      
-        </div>
+    <div className="App"> 
+    <Form/>
+          
+    </div>
    ) 
 }
 
 export default App
+
+{/* <Clicker />   */}
+
+{/* <ShoppingList items={data}/> */}
 
 {/* <DoubleDice/>
       <DoubleDice/> */}
