@@ -7,6 +7,8 @@ import DoubleDice from "./DoubleDice"
 import ShoppingList from "./ShoppingList";
 import Clicker from "./Clicker"
 import Form from "./Form"
+import Counter from "./Counter"
+import Toggler from "./Toggler"
 
 
 const data = [
@@ -19,13 +21,16 @@ const data = [
 function App() {  
    return(
     <div className="App"> 
-    <Form/>
+    <Counter num={0}/>
+    <Toggler num={0}/>
+    
           
     </div>
    ) 
 }
 
 export default App
+{/* <Form/> */}
 
 {/* <Clicker />   */}
 
